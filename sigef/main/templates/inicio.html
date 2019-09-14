@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block container %}
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+            <div class="thumb">
+                <a href="{% url 'egresos:listado_egresos' %}">
+                    <h1 class="text-center">
+                        <i class="fa fa-barcode"></i>
+                    </h1>
+                    Listado productos
+                </a>
+
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumb">
+                <a href="{% url 'egresos:nuevo_egreso' %}">
+                    <h1 class="text-center">
+                        <i class="fa fa-upload"></i>
+
+                    </h1>
+                    Cargar productos
+                </a>
+            </div>
+        </div>
+    </div>
+    <style>
+        h1 {
+            font-size: 60px;
+        }
+
+        .thumb {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px #707070;
+            min-height: 160px;
+            border-radius: 5px;
+
+        }
+
+        .thumb:hover {
+            box-shadow: 0 0 10px #757575;
+            cursor: pointer;
+        }
+    </style>
+{% endblock %}

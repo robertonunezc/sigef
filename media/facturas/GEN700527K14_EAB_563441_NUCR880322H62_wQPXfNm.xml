@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+                  Version="3.3"
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+                  Serie="EAB" Folio="563441" Fecha="2018-08-30T15:32:00"
+                  Sello="BU76RlR/ZGyI1J7eFCc9jtNPGwlUUyNTPzwXpkfSL8prIHuooJYRPJg00kPLj5cUP1QGl0GMsQPFOx90dOwU8OT1LDuiDimGf1voEr23CCmyhSqmfGzf9620lcHAzwr8n0F5BiOeFyykhxYlW0595FYh/71ogo12O7HWXEvSAQP3uBlKco88otwAtBBIbXmiNGSAsQQrHr06iY136Sw+w5Ln3y8XQH1+S0nJ2bYmfJ6crM35L4qEtKnIrD7eEDtsbUzqnOTGS+PBjCttcsaSVENcIwm11e5bcczkCgb6uI5nmMz1LAi0HaituyD17aOV948RjGK/oSNBtoK3Z2CC6g=="
+                  FormaPago="01" NoCertificado="00001000000403989121"
+                  Certificado="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"
+                  SubTotal="435.34" Descuento="0.00" Moneda="MXN" TipoCambio="1" Total="505.00" TipoDeComprobante="I"
+                  MetodoPago="PUE" LugarExpedicion="76120">
+    <cfdi:Emisor Rfc="GEN700527K144" Nombre="GAS EXPRESS NIETO, S.A. DE C.V." RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="NUCR880322H62" Nombre="ROBERTO NU¤EZ CORRALES (203024)" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="15111510" NoIdentificacion="1" Cantidad="50.0" ClaveUnidad="LTR" Unidad="LITRO"
+                       Descripcion="GAS LICUADO DE PETRÓLEO" ValorUnitario="8.706897" Importe="435.34" Descuento="0.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="435.34" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000"
+                                   Importe="69.66"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="69.66">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="69.66"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+                                 FechaTimbrado="2018-08-30T15:37:42" UUID="45205A31-9281-4779-8B7A-AEBE624620D2"
+                                 NoCertificadoSAT="00001000000404512308"
+                                 SelloCFD="BU76RlR/ZGyI1J7eFCc9jtNPGwlUUyNTPzwXpkfSL8prIHuooJYRPJg00kPLj5cUP1QGl0GMsQPFOx90dOwU8OT1LDuiDimGf1voEr23CCmyhSqmfGzf9620lcHAzwr8n0F5BiOeFyykhxYlW0595FYh/71ogo12O7HWXEvSAQP3uBlKco88otwAtBBIbXmiNGSAsQQrHr06iY136Sw+w5Ln3y8XQH1+S0nJ2bYmfJ6crM35L4qEtKnIrD7eEDtsbUzqnOTGS+PBjCttcsaSVENcIwm11e5bcczkCgb6uI5nmMz1LAi0HaituyD17aOV948RjGK/oSNBtoK3Z2CC6g=="
+                                 SelloSAT="htWht6DyM1hoz3ID6N7/sgU91+sZLMAAH2AlSy7TJqZn8V+Ojmbf+pQq7NHpGitTFNOGBsbEWO40v7pgxYwP2gkzLp7h+34AqRsNoHfsa0pUe9dqFFDi+S5VobhOAsMGB1YoHngYp0wTQlaIVxqyhEFU5o4XKHHrRvVHkaczWqJdLCaWZ1f3h6HggfzRX9L3VrWer2jzOJYj0/PwMGrz9OX2MNzoow6boYjOeb8fe57fm4eVSVwB6Jmxm9lYABgSGLFt4q9thhMYpIdueXEdomg1aw8+m0CRjmjiUSbon+I+xSPdrDJekcJZFXYFFLWtB3i5YPjq88mSa7ujuEZrQQ=="
+                                 Version="1.1" RfcProvCertif="TLE011122SC2"
+                                 xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
