@@ -25,7 +25,8 @@ SECRET_KEY = 'zwxifqgrvup)iq#d7fnw6$k7474jzj(^5z57q@bbuow0=y+899'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'sigeh.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'sigeh.herokuapp.com', '127.0.0.1']
+
 
 AUTH_USER_MODEL = 'main.Usuario'
 LOGIN_REDIRECT_URL = '/inicio/menu-principal/'
@@ -41,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sigef.egresos',
-    'sigef.main'
+    'sigef.main',
+    'sigef.clientes'
 ]
 
 MIDDLEWARE = [
@@ -85,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'sigef',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': '210781Games',
         'HOST': '127.0.0.1',
         'PORT': 5432,  # Set to empty string for default.
     }

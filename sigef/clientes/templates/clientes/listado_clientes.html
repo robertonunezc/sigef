@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+
+{% endblock %}
+{% block container %}
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Listado de clientes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive ls-table">
+                            <table class="table table-bordered table-bottomless" id="ls-editable-table">
+                                <thead>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>RFC</th>
+                                </thead>
+                                <tbody>
+
+                                {% for cliente in clientes %}
+                                    <tr>
+
+                                        <td>{{ cliente.nombre }}</td>
+                                        <td>{{ cliente.apellidos }}</td>
+                                        <td>{{ cliente.rfc }}</td>
+                                        <td>
+                                            <button class="btn btn-success btn-xs">Editar</button>
+                                        </td>
+                                    </tr>
+
+                                {% endfor %}
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal -->
+
+{% endblock %}
