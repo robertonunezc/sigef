@@ -82,12 +82,12 @@ WSGI_APPLICATION = 'sigef.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sigef',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'USER': 'sigef',
+        'PASSWORD': 'sigef',
         'HOST': '127.0.0.1',
-        'PORT': 5432,  # Set to empty string for default.
+        'PORT': '',  # Set to empty string for default.
     }
 }
 
