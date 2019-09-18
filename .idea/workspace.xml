@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3da7a5ec-514e-4c8e-ab30-d85399439e64" name="Default" comment="Crear venta y listado de ventas.">
+    <list default="true" id="3da7a5ec-514e-4c8e-ab30-d85399439e64" name="Default" comment="Tratando de mostrar listado de Conceptos en venta (Fail)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sigef/clientes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/clientes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sigef/ventas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/ventas/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sigef/ventas/templates/ventas/listado_ventas.html" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/ventas/templates/ventas/listado_ventas.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +180,7 @@
       <updated>1568468030638</updated>
       <workItem from="1568646884603" duration="5084000" />
       <workItem from="1568657738175" duration="5436000" />
-      <workItem from="1568756716332" duration="7790000" />
+      <workItem from="1568756716332" duration="9941000" />
     </task>
     <task id="LOCAL-00001" summary="Crear cliente y listado de clientes.">
       <created>1568758309901</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568765068527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tratando de mostrar listado de Conceptos en venta (Fail)">
+      <created>1568765973735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568765973735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Crear cliente y listado de clientes." />
     <MESSAGE value="Crear venta y listado de ventas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear venta y listado de ventas." />
+    <MESSAGE value="Tratando de mostrar listado de Conceptos en venta (Fail)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tratando de mostrar listado de Conceptos en venta (Fail)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sigef$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1568669696253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

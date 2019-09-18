@@ -29,16 +29,10 @@
                                         <td>{{ venta.cliente.rfc }}</td>
                                         <td>{{ venta.cliente.nombre }}</td>
                                         <td>{{ venta.cliente.apellidos }}</td>
-                                        <td>{{ venta.conceptos | upper }}</td>
-{#                                        <table>#}
-{#                                            {% for concepto in venta.conceptos %}#}
-{#                                            <tr>#}
-{#                                                <th>{{ concepto }}</th>#}
-{#                                                <td><a href="{% url "ver_jugadores_equipo" equipo.id %}">Ver equipo</a></td>#}
-{#                                            </tr>#}
-{#                                            {% endfor %}#}
-{#                                        </table>#}
-
+                                        <td>{% for concepto in venta.conceptos.all %}
+                                            {{ concepto |linebreaks}}
+                                            {% endfor %}
+                                        </td>
                                         <td>
                                             <button class="btn btn-success btn-xs">Editar</button>
                                         </td>

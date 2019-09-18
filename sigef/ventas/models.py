@@ -8,3 +8,4 @@ from sigef.egresos.models import Concepto
 class Venta(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.DO_NOTHING,)
     conceptos = models.ManyToManyField(Concepto)
+
