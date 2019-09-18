@@ -61,7 +61,7 @@ docs/_build/
 target/
 
 # Alfaro28
-/.idea/*
+.idea/*
 *.pid
 dump.rdb
 celerybeat-schedule
