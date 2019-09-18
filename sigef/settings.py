@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
@@ -27,10 +26,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 'sigeh.herokuapp.com', '127.0.0.1']
 
-
 AUTH_USER_MODEL = 'main.Usuario'
 LOGIN_REDIRECT_URL = '/inicio/menu-principal/'
-
 
 # Application definition
 
@@ -85,26 +82,24 @@ WSGI_APPLICATION = 'sigef.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sigef',
-        'USER': 'postgres',
-        'PASSWORD': '210781Games',
+        'USER': 'sigef',
+        'PASSWORD': 'sigef',
         'HOST': '127.0.0.1',
-        'PORT': 5432,  # Set to empty string for default.
+        'PORT': '',  # Set to empty string for default.
     }
 }
-
-if os.environ.get('MYSQL_ENVIROMENT') is not None:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'sigef',
-            'USER': 'sigef',
-            'PASSWORD': 'sigef',
-            'HOST': '127.0.0.1',
-            'PORT': '',  # Set to empty string for default.
-        }
-    }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'sigef',
+#         'USER': 'postgres',
+#         'PASSWORD': '210781Games',
+#         'HOST': '127.0.0.1',
+#         'PORT': 5432,  # Set to empty string for default.
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -137,7 +132,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
