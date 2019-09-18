@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3da7a5ec-514e-4c8e-ab30-d85399439e64" name="Default" comment="Crear cliente y listado de clientes.">
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/templates/ventas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/templates/ventas/listado_ventas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/templates/ventas/nueva_venta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sigef/ventas/views.py" afterDir="false" />
+    <list default="true" id="3da7a5ec-514e-4c8e-ab30-d85399439e64" name="Default" comment="Crear venta y listado de ventas.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/clientes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/clientes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/clientes/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/clientes/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/clientes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/clientes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/clientes/templates/clientes/nuevo_cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/clientes/templates/clientes/nuevo_cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/clientes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/clientes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/egresos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/egresos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/main/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/main/templates/inicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sigef/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sigef/ventas/templates/ventas/listado_ventas.html" beforeDir="false" afterPath="$PROJECT_DIR$/sigef/ventas/templates/ventas/listado_ventas.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +178,7 @@
       <updated>1568468030638</updated>
       <workItem from="1568646884603" duration="5084000" />
       <workItem from="1568657738175" duration="5436000" />
-      <workItem from="1568756716332" duration="6968000" />
+      <workItem from="1568756716332" duration="7790000" />
     </task>
     <task id="LOCAL-00001" summary="Crear cliente y listado de clientes.">
       <created>1568758309901</created>
@@ -210,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568758309901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Crear venta y listado de ventas.">
+      <created>1568765068527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568765068527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +215,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Crear cliente y listado de clientes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear cliente y listado de clientes." />
+    <MESSAGE value="Crear venta y listado de ventas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Crear venta y listado de ventas." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sigef$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1568669696253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
