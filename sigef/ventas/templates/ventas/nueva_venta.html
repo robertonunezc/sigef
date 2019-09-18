@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12">
                 <!--Top header start-->
-                <h3 class="ls-top-header">Nuevo cliente</h3>
+                <h3 class="ls-top-header">Nueva venta</h3>
                 <!--Top header end -->
             </div>
         </div>
@@ -16,7 +16,7 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Alta de un nuevo cliente </h3>
+                        <h3 class="panel-title">Registro nueva venta </h3>
                     </div>
                     {% if msg %}
                         <div class="alert alert-success alert-dismissable">{{ msg }}</div>
@@ -24,22 +24,7 @@
                     <div class="panel-body">
                         <form role="form" class="ls_form" id="clienteForm" method="post" enctype="multipart/form-data">
                             {% csrf_token %}
-                            <div class="row">
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <label>Datos del cliente</label>
-                                        <p>Nombre:
-                                        {{ form.nombre }}
-                                        </p>
-                                        <p>Apellidos:
-                                        {{ form.apellidos }}
-                                        </p>
-                                        <p>RFC:
-                                        {{ form.rfc }}
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                            {{ form.as_p }}
                             <div class="form-group">
                                 <button class="btn btn-success" type="submit">
                                     <i class="glyphicon glyphicon-floppy-saved mr5"></i> Guardar

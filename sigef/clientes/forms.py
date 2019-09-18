@@ -3,7 +3,6 @@ from django import forms
 
 from sigef.clientes.models import Cliente
 
-
 class ClienteForm(forms.ModelForm):
     class Meta:
         model = Cliente

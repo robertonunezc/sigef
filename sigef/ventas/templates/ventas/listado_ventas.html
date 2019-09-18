@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+
+{% endblock %}
+{% block container %}
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Listado de ventas</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive ls-table">
+                            <table class="table table-bordered table-bottomless" id="ls-editable-table">
+                                <thead>
+                                <th>RFC del cliente</th>
+                                <th>Nombre del cliente</th>
+                                <th>Apellidos del cliente</th>
+                                <th>Productos vendidos</th>
+                                </thead>
+                                <tbody>
+
+                                {% for venta in ventas %}
+                                    <tr>
+
+                                        <td>{{ venta.cliente.rfc }}</td>
+                                        <td>{{ venta.cliente.nombre }}</td>
+                                        <td>{{ venta.cliente.apellidos }}</td>
+{#                                        {% for concepto in venta.conceptos %}#}
+{#                                            <td>{{ concepto. }}</td>#}
+{#                                        {% endfor %}    #}
+                                        <td>
+                                            <button class="btn btn-success btn-xs">Editar</button>
+                                        </td>
+                                    </tr>
+
+                                {% endfor %}
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

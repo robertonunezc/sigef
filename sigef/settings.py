@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sigef.egresos',
+    'sigef.ventas',
     'sigef.main',
     'sigef.clientes'
 ]

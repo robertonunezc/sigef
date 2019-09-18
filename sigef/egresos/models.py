@@ -45,7 +45,6 @@ class Concepto(models.Model):
     factura = models.ForeignKey(Factura, on_delete=models.CASCADE, related_name='conceptos')
     descuento_maximo = models.DecimalField(max_digits=8, decimal_places=2)
     precio_venta_base = models.DecimalField(max_digits=8, decimal_places=2)
-
     def __str__(self):
         return self.descripcion
 
